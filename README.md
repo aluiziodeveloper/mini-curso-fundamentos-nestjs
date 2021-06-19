@@ -1,73 +1,44 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <a href="https://aluiziodeveloper.com.br/">
+    <img alt="Aluizio Developer" src="https://aluiziodeveloper.com.br/assets/img/icon.png" width="200" />
+  </a>
 </p>
+<h2 align="center">
+Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
+</h2>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Mini Curso Gratuito Fundamentos do Framework NestJS
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Seja muito bem-vindo ao mini curso gratuito sobre os fundamentos do framework web NestJS.
 
-## Description
+Eu sou o Jorge Aluizio e estarei contigo nessa nova jornada de aprendizado com esse framework para Node.js, que vem pouco a pouco conquistando seu espaço junto a comunidade de desenvolvedores de backend com Javascript e Node.js.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Objetivo
 
-## Installation
+Esse curso tem como objetivo cobrir os principais pontos da estrutura do NestJS para que você possa a partir disso, começar a criar os seus projetos de backend e explorar exatamente aquilo que existe como o diferencial no NestJS.
 
-```bash
-$ npm install
+O curso estará estruturado de forma incremental, com uma sequencia preparada para que você evolua gradativamente no aprendizado com o NestJS, tirando todo o proveito disso.
+
+## Rodando a aplicação no seu PC
+
+Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
+
+```shell
+git clone https://github.com/aluiziodeveloper/mini-curso-fundamentos-nestjs.git
 ```
 
-## Running the app
+Após clonar o conteúdo do repositório, acesse o diretório criado e efetue a instalação das dependências:
 
-```bash
-# development
-$ npm run start
+```shell
+cd mini-curso-fundamentos-nestjs
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+npm install
 ```
 
-## Test
+Após essa instalação execute a aplicação com o comando `npm run start:dev`. O servidor estará em execução no endereço `http://localhost:3000`.
 
-```bash
-# unit tests
-$ npm run test
+## Contato
 
-# e2e tests
-$ npm run test:e2e
+[Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+[YouTube](https://www.youtube.com/jorgealuizio)
