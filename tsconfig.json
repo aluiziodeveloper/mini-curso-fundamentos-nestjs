@@ -11,5 +11,12 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true
-  }
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    ".docker"
+  ]
 }

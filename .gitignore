@@ -32,3 +32,8 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Docker
+.docker/*
+!.docker/entrypoint.sh
+!.docker/postgres/Dockerfile
