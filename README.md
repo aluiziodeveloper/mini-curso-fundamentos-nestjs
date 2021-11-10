@@ -37,7 +37,7 @@ chmod +x .docker/entrypoint.sh
 docker-compose up
 ```
 
-Após essa instalação execute a aplicação estará em execução no endereço `http://localhost:3000`.
+Após essa instalação a aplicação estará em execução no endereço `http://localhost:3000`.
 
 ## Redes Sociais
 
