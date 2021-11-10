@@ -27,18 +27,24 @@ Faça um clone deste repositório e instale no seu ambiente de desenvolvimento u
 git clone https://github.com/aluiziodeveloper/mini-curso-fundamentos-nestjs.git
 ```
 
-Após clonar o conteúdo do repositório, acesse o diretório criado e efetue a instalação das dependências:
+Após clonar o conteúdo do repositório, acesse o diretório criado e execute os comandos abaixo para criar e executar os containers da aplicação e do banco de dados PostgreSQL.
 
 ```shell
 cd mini-curso-fundamentos-nestjs
 
-npm install
+chmod +x .docker/entrypoint.sh
+
+docker-compose up
 ```
 
-Após essa instalação execute a aplicação com o comando `npm run start:dev`. O servidor estará em execução no endereço `http://localhost:3000`.
+Após essa instalação execute a aplicação estará em execução no endereço `http://localhost:3000`.
 
-## Contato
+## Redes Sociais
 
 [Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
 [YouTube](https://www.youtube.com/jorgealuizio)
+
+[Servidor no Discord](https://discord.gg/3J87BMz5fD)
+
+[LinkedIn](https://www.linkedin.com/in/jorgealuizio/)
