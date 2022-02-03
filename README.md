@@ -7,9 +7,9 @@
 Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
 </h2>
 
-## Mini Curso Gratuito Fundamentos do Framework NestJS
+## Curso de Fundamentos do Framework NestJS
 
-Seja muito bem-vindo ao mini curso gratuito sobre os fundamentos do framework web NestJS.
+Seja muito bem-vindo ao curso sobre os fundamentos do framework web NestJS.
 
 Eu sou o Jorge Aluizio e estarei contigo nessa nova jornada de aprendizado com esse framework para Node.js, que vem pouco a pouco conquistando seu espaço junto a comunidade de desenvolvedores de backend com Javascript e Node.js.
 
@@ -28,6 +28,8 @@ git clone https://github.com/aluiziodeveloper/mini-curso-fundamentos-nestjs.git
 ```
 
 Após clonar o conteúdo do repositório, acesse o diretório criado e execute os comandos abaixo para criar e executar os containers da aplicação e do banco de dados PostgreSQL.
+
+> IMPORTANTE: Se você for executar esse projeto em PC com Windows, use uma instalação Linux no seu Windows através do WSL.
 
 ```shell
 cd mini-curso-fundamentos-nestjs
