@@ -3,9 +3,18 @@ import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import {CoursesModule} from '../../src/courses/courses.module'
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { ValidationPipe } from '@nestjs/common';
+import { CreateCourseDto } from '../../src/courses/dto/create-course.dto';
+import { HttpStatus } from '@nestjs/common';
 
 describe('Courses: /courses', () => {
   let app: INestApplication;
+
+  const course: CreateCourseDto = {
+    name: 'Nestjs com TypeORM',
+    description: 'Criando apis restful com nestjs',
+    tags: ['nestjs', 'typeorm', 'nodejs', 'typescript']
+  };
 
   beforeAll(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
@@ -22,6 +31,14 @@ describe('Courses: /courses', () => {
     }).compile();
 
     app = moduleFixture.createNestApplication();
+
+    app.useGlobalPipes(
+    new ValidationPipe({
+      whitelist: true,
+      forbidNonWhitelisted: true,
+      transform: true,
+    }));
+
     await app.init();
   });
 
@@ -29,5 +46,10 @@ describe('Courses: /courses', () => {
     await app.close();
   });
 
-  it.todo('Create POST /courses');
+  it('Create POST /courses', () => {
+    return request(app.getHttpServer())
+      .post('/courses')
+      .send(course)
+      .expect(HttpStatus.CREATED)
+  });
 });
