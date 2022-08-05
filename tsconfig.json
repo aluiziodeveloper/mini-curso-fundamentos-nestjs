@@ -10,19 +10,9 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-<<<<<<< HEAD
-    "incremental": true
-  },
-  "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "build",
-    "dist",
-    ".docker"
-  ]
-=======
     "incremental": true,
     "allowJs": true
-  }
->>>>>>> b9e9cb9
+  },
+  "include": ["src", "test"],
+  "exclude": ["dist", "node_modules"]
 }
