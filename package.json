@@ -18,9 +18,15 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+<<<<<<< HEAD
     "pretest:e2e": "docker-compose up -d dbtest",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "posttest:e2e": "docker-compose stop dbtest && docker-compose rm -f dbtest"
+=======
+    "pretest:e2e": "docker compose -f test/courses/docker-compose.yml up -d",
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "posttest:e2e": "docker compose stop dbtest && docker-compose rm -f dbtest"
+>>>>>>> b9e9cb9
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
@@ -30,11 +36,16 @@
     "@nestjs/typeorm": "^7.1.5",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
-    "pg": "^8.6.0",
+    "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
+<<<<<<< HEAD
     "rxjs": "^6.6.6",
     "typeorm": "^0.2.34",
+=======
+    "rxjs": "^6.6.7",
+    "typeorm": "^0.3.6",
+>>>>>>> b9e9cb9
     "uuid": "^8.3.2"
   },
   "devDependencies": {
